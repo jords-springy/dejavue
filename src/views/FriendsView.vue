@@ -58,59 +58,75 @@
     }
   };
   </script>
+  
   <style scoped>
-  #parent{
-      display: flex;
+  #parent {
+    display: flex;
   }
-  form{
-      width: 20cap;
-      padding: 5cap;
-      text-align: center;
-      margin-left: 25%;
-      background-color: #092C4E;
-      margin-left: auto;
-      margin-right: auto;
+  
+  form {
+    width: 20cap;
+    padding: 5cap;
+    text-align: center;
+    margin-left: 25%;
+    background-color: #092C4E;
+    margin-left: auto;
+    margin-right: auto;
   }
-  input, select{
-      background-color: #0B4580;
-      border: 1px whitesmoke solid;
-      border-radius: 5px;
-      width: 250px;
-      padding-bottom: 5px;
+  
+  input, select {
+    background-color: #0B4580;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+    width: 250px;
+    padding-bottom: 5px;
   }
-  label{
-     padding-top:5px ;
-      width: 250px;
-      text-align: left;
-      font-size: small;
+  
+  label {
+    padding-top: 5px;
+    width: 250px;
+    text-align: left;
+    font-size: small;
   }
-  .terms{
-     display: flex;
-     width: 400px;
+  
+  .terms {
+    display: flex;
+    width: 400px;
   }
-  input[type='checkbox']{
-      height: 16px;
-      width: 16px;
-      position: relative;
-      top: 2px;
+  
+  input[type='checkbox'] {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 2px;
   }
-  #para{
-      width: 200px;
-      height: 10px;
-      box-sizing: content-box;
-      border: white dashed 5px;
-      margin: 0px;
-      padding: 10px 10px 15px 5px;
-      cursor: pointer;
+  
+  #para {
+    width: 200px;
+    height: 10px;
+    box-sizing: content-box;
+    border: white dashed 5px;
+    margin: 0px;
+    padding: 10px 10px 15px 5px;
+    cursor: pointer;
   }
-  #para:hover{
-      background-color: aliceblue;
+  
+  #para:hover {
+    background-color: aliceblue;
   }
-</style>
-
-
-
-
-
-
-
+  
+  .CardComp {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .CardComp.male {
+    border-color: gold;
+  }
+  
+  .CardComp.female {
+    border-color: green;
+  }
+  </style>

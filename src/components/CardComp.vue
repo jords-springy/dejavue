@@ -1,5 +1,5 @@
 <template>
-    <div class="card" :class="{ 'male': gender === 'male', 'female': gender === 'female' }">
+    <div class="card" :class="{ 'Male': gender === 'Male', 'Female': gender === 'Female' }">
       <slot name="header"></slot>
       <slot name="body"></slot>
     </div>
@@ -24,11 +24,11 @@
     border-radius: 5px;
   }
   
-  .male {
+  .Male {
     border-color: gold;
   }
   
-  .female {
+  .Female {
     border-color: green;
   }
   </style>
